@@ -75,7 +75,7 @@ apiAction<
       encodeBase58(decodeUTF8(requestParams.host)),
     ].join("_");
 
-    if (process.env.NODE_ENV == "development") {
+    if (false) {
       const clipboardy = require("clipboardy");
       const notifier = require("node-notifier");
       clipboardy.writeSync(emailToken);
