@@ -1,0 +1,1 @@
+web: ./public/scripts/start_api_community_prod

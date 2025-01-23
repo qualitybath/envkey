@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "description": "EnvKey monorepo top level dependencies",
   "scripts": {
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint . --ext .ts,.tsx",
+    "heroku-prebuild": "./public/scripts/install_deps"
   },
   "keywords": [],
   "author": "Envkey Inc",

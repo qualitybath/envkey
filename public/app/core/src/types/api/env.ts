@@ -35,7 +35,7 @@ export type Env = {
 
   COMMUNITY_AUTH_HASH?: string;
 
-  EXPRESS_PORT?: string;
+  PORT?: string;
   SOCKET_PORT?: string;
   CLUSTER_PORT?: string;
 

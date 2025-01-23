@@ -11,7 +11,7 @@ require("../../../shared/src/api_handlers");
 require("../../../shared/src/fetch_handlers");
 
 const app = express();
-const port = env.EXPRESS_PORT ? parseInt(env.EXPRESS_PORT) : 3000;
+const port = env.PORT ? parseInt(env.PORT) : 3000;
 const ip = process.env.EXPRESS_IP || "0.0.0.0";
 
 app.use(
