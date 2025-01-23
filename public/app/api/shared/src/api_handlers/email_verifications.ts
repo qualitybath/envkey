@@ -95,7 +95,7 @@ apiAction<
 
     const token = secureRandomAlphanumeric(22);
 
-    if (false) {
+    if (process.env.NODE_ENV == "development") {
       const clipboardy = require("clipboardy");
       const notifier = require("node-notifier");
       clipboardy.writeSync(token);

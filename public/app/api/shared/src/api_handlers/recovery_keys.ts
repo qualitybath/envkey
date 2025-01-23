@@ -141,7 +141,7 @@ apiAction<
     if (!payload.emailToken) {
       const emailToken = secureRandomAlphanumeric(22);
 
-      if (false) {
+      if (process.env.NODE_ENV == "development") {
         const clipboardy = require("clipboardy");
         const notifier = require("node-notifier");
         clipboardy.writeSync(emailToken);
