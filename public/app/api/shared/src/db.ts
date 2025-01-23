@@ -85,6 +85,7 @@ export const initIfNeeded = (lambdaConfig?: ConnectionOptions) => {
     multipleStatements: true,
     charset: "utf8mb4",
     connectionLimit: 100,
+    ssl: "Amazon RDS",
   };
 
   pool = createPool(poolConfig);
